@@ -1,0 +1,118 @@
+<html>
+<head>
+<title>تسجيل الدخول</title>
+<style>
+
+body {
+  background-image: url('d1.png');
+  background-repeat: repeat-y;
+}
+.cont{
+display: grid;
+grid-auto-rows: minmax(50px,auto);
+grid-template-areas:
+"h h h h h h h h h h h h h h h"
+"s n n n n n n n n n n n n n n"
+"s n n n n n n n n n n n n n n"
+"s n n n n n n n n n n n n n n"
+"s n n n n n n n n n n n n n n"
+"s n n n n n n n n n n n n n n"
+
+
+;
+grid-gap:10px;
+}
+.box{background: ;
+     color:white;
+    text-align: center;
+}
+.head{
+grid-area: h;
+}
+.nav{
+font-size: 1.2em; 
+color:black;
+position: absolute;
+ top: 5%;
+ right:25%;
+ bottom: 5%;
+ left: 25%;
+ background-color: white;
+ border: 8px outset black;
+border-radius: 1em;
+padding: 0% ;
+box-shadow: inset 6px 6px 5px #666;
+}
+label{background-color: blue;
+padding: 0.3em;
+color: white;
+border-radius: 5px;
+}
+.side{
+grid-area: s;
+background:;
+
+}
+b{
+font-size: 1.5em;
+color: blue;
+}
+p { 
+ font-size: 1.2em; 
+ font-family: sans-serif;
+color: black ;
+}
+a{color: white;}
+</style>
+</head>
+<body>
+
+
+
+
+
+<div class="cont">
+        <div class="box head">
+
+
+
+
+
+
+
+
+
+
+
+</div>
+        <div class="box nav">
+<pre> 
+       <p>تسجيل الدخول</p>
+      <label for="form-uname">UserName:</label><br>
+      <input type="text" name="uname" value="Your name" maxlength="8" id="form-uname"><br>
+      <label for="form-email">Your email:</label><br>
+      <input type="email" name="email" value="******@gmail.com" maxlength="8" id="form-email"><br>
+
+      <label for="form-num">Your phone number:</label><br>
+      <input type="tel" name="tel" value="059********" maxlength="8" id="form-num"><br>
+      <label for="form-pswd">Password:</label><br>
+      <input type="password" name="pswd" value="********" maxlength="8" id="form-pswd"><br>
+      <label for="form-uname">search:</label><br>
+      <input type="search"  value="ابحث عن ما تريد مشاهدته" ><br>            
+</pre>
+</div>
+        <div class="box side">
+<p>الصفحة الرئيسية </p> <br>
+<p>أرغب بمشاهدتها</p> <br>
+<p> تمت مشاهدتها</p> <br>
+<p> التنزيلات</p> <br>
+<p><a href="a">تواصل معنا</a></p> <br>
+<p><a href=".html">تسجيل الدخول</a></p> <br>
+
+
+
+</div>
+
+     </div>
+ </body>
+</html>
